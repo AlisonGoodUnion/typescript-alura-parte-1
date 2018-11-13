@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": "app/js",
+        //apenas gera class js se a class ts estiver sem erros.
+        "noEmitOnError": true,
+        //obriga tipar atributos.
+        "noImplicitAny": true
+    },
+    "include": [
+        "app/ts/**/*"
+    ]
+}
